@@ -5,8 +5,8 @@
       "type": "Feature",
       "id": 0,
       "properties": {
-        "AWS": "Singapore",
-        "marker-color": "ffff00"
+        "image": "https://appharbor-assets.s3.amazonaws.com/20/6efebc-87de-48f5-a276-f73a80e3017b/CloudantLogo_RGB_2C_square.png",
+        "AWS": "Singapore"
       },
       "geometry": {
         "type": "Point",
