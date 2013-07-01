@@ -5,7 +5,6 @@
       "type": "Feature",
       "id": 0,
       "properties": {
-        "image": "https://appharbor-assets.s3.amazonaws.com/20/6efebc-87de-48f5-a276-f73a80e3017b/CloudantLogo_RGB_2C_square.png",
         "AWS": "Singapore"
       },
       "geometry": {
@@ -20,8 +19,7 @@
       "type": "Feature",
       "id": 1,
       "properties": {
-        "AWS": "Sydney",
-        "marker-color": "ffff00"
+        "AWS": "Sydney"
       },
       "geometry": {
         "type": "Point",
@@ -35,8 +33,7 @@
       "type": "Feature",
       "id": 2,
       "properties": {
-        "AWS": "Tokyo",
-        "marker-color": "ffff00"
+        "AWS": "Tokyo"
       },
       "geometry": {
         "type": "Point",
@@ -50,8 +47,7 @@
       "type": "Feature",
       "id": 3,
       "properties": {
-        "AWS": "Northern California",
-        "marker-color": "ffff00"
+        "AWS": "Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -65,8 +61,7 @@
       "type": "Feature",
       "id": 4,
       "properties": {
-        "AWS": "Oregon",
-        "marker-color": "ffff00"
+        "AWS": "Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -80,8 +75,7 @@
       "type": "Feature",
       "id": 5,
       "properties": {
-        "AWS": "Northern Virginia",
-        "marker-color": "ffff00"
+        "AWS": "Northern Virginia"
       },
       "geometry": {
         "type": "Point",
@@ -95,8 +89,7 @@
       "type": "Feature",
       "id": 6,
       "properties": {
-        "AWS": "Dublin",
-        "marker-color": "ffff00"
+        "AWS": "Dublin"
       },
       "geometry": {
         "type": "Point",
@@ -110,8 +103,7 @@
       "type": "Feature",
       "id": 7,
       "properties": {
-        "Joyent": "Las Vegas",
-        "marker-color": "008000"
+        "Joyent": "Las Vegas"
       },
       "geometry": {
         "type": "Point",
@@ -125,8 +117,7 @@
       "type": "Feature",
       "id": 8,
       "properties": {
-        "Joyent": "San Francisco",
-        "marker-color": "008000"
+        "Joyent": "San Francisco"
       },
       "geometry": {
         "type": "Point",
@@ -140,8 +131,7 @@
       "type": "Feature",
       "id": 9,
       "properties": {
-        "Joyent": "Ashburn",
-        "marker-color": "008000"
+        "Joyent": "Ashburn"
       },
       "geometry": {
         "type": "Point",
@@ -155,8 +145,7 @@
       "type": "Feature",
       "id": 10,
       "properties": {
-        "Joyent": "Amsterdam",
-        "marker-color": "008000"
+        "Joyent": "Amsterdam"
       },
       "geometry": {
         "type": "Point",
@@ -170,8 +159,7 @@
       "type": "Feature",
       "id": 11,
       "properties": {
-        "Rackspace": "Hong Kong",
-        "marker-color": "ff0000"
+        "Rackspace": "Hong Kong"
       },
       "geometry": {
         "type": "Point",
@@ -185,8 +173,7 @@
       "type": "Feature",
       "id": 12,
       "properties": {
-        "Rackspace": "Sydney",
-        "marker-color": "ff0000"
+        "Rackspace": "Sydney"
       },
       "geometry": {
         "type": "Point",
@@ -200,8 +187,7 @@
       "type": "Feature",
       "id": 13,
       "properties": {
-        "Rackspace": "Chicago",
-        "marker-color": "ff0000"
+        "Rackspace": "Chicago"
       },
       "geometry": {
         "type": "Point",
@@ -215,8 +201,7 @@
       "type": "Feature",
       "id": 14,
       "properties": {
-        "Rackspace": "Dallas",
-        "marker-color": "ff0000"
+        "Rackspace": "Dallas"
       },
       "geometry": {
         "type": "Point",
@@ -230,8 +215,7 @@
       "type": "Feature",
       "id": 15,
       "properties": {
-        "Rackspace": "Ashburn",
-        "marker-color": "ff0000"
+        "Rackspace": "Ashburn"
       },
       "geometry": {
         "type": "Point",
@@ -245,8 +229,7 @@
       "type": "Feature",
       "id": 16,
       "properties": {
-        "Rackspace": "London",
-        "marker-color": "ff0000"
+        "Rackspace": "London"
       },
       "geometry": {
         "type": "Point",
@@ -260,8 +243,7 @@
       "type": "Feature",
       "id": 17,
       "properties": {
-        "Softlayer": "Singapore",
-        "marker-color": "0000ff"
+        "Softlayer": "Singapore"
       },
       "geometry": {
         "type": "Point",
@@ -275,8 +257,7 @@
       "type": "Feature",
       "id": 18,
       "properties": {
-        "Softlayer": "San Jose",
-        "marker-color": "0000ff"
+        "Softlayer": "San Jose"
       },
       "geometry": {
         "type": "Point",
@@ -290,8 +271,7 @@
       "type": "Feature",
       "id": 19,
       "properties": {
-        "Softlayer": "Seattle",
-        "marker-color": "0000ff"
+        "Softlayer": "Seattle"
       },
       "geometry": {
         "type": "Point",
@@ -305,8 +285,7 @@
       "type": "Feature",
       "id": 20,
       "properties": {
-        "Softlayer": "Dallas",
-        "marker-color": "0000ff"
+        "Softlayer": "Dallas"
       },
       "geometry": {
         "type": "Point",
@@ -320,8 +299,7 @@
       "type": "Feature",
       "id": 21,
       "properties": {
-        "Softlayer": "Washington D.C.",
-        "marker-color": "0000ff"
+        "Softlayer": "Washington D.C."
       },
       "geometry": {
         "type": "Point",
@@ -335,8 +313,7 @@
       "type": "Feature",
       "id": 22,
       "properties": {
-        "Softlayer": "Amsterdam",
-        "marker-color": "0000ff"
+        "Softlayer": "Amsterdam"
       },
       "geometry": {
         "type": "Point",
