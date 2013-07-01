@@ -5,7 +5,11 @@
       "type": "Feature",
       "id": 0,
       "properties": {
-        "AWS": "Singapore"
+        "marker-size": "medium",
+        "Providers": [
+          "Softlayer",
+          "AWS"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +23,11 @@
       "type": "Feature",
       "id": 1,
       "properties": {
-        "AWS": "Sydney"
+        "marker-size": "medium",
+        "Providers": [
+          "AWS",
+          "Rackspace"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +41,8 @@
       "type": "Feature",
       "id": 2,
       "properties": {
-        "AWS": "Tokyo"
+        "marker-size": "small",
+        "Providers": ["AWS"]
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +56,8 @@
       "type": "Feature",
       "id": 3,
       "properties": {
-        "AWS": "Northern California"
+        "marker-size": "small",
+        "Providers": ["AWS"]
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +71,8 @@
       "type": "Feature",
       "id": 4,
       "properties": {
-        "AWS": "Oregon"
+        "marker-size": "small",
+        "Providers": ["AWS"]
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +86,8 @@
       "type": "Feature",
       "id": 5,
       "properties": {
-        "AWS": "Northern Virginia"
+        "marker-size": "small",
+        "Providers": ["AWS"]
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +101,8 @@
       "type": "Feature",
       "id": 6,
       "properties": {
-        "AWS": "Dublin"
+        "marker-size": "small",
+        "Providers": ["AWS"]
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +116,8 @@
       "type": "Feature",
       "id": 7,
       "properties": {
-        "Joyent": "Las Vegas"
+        "marker-size": "small",
+        "Providers": ["Joyent"]
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +131,8 @@
       "type": "Feature",
       "id": 8,
       "properties": {
-        "Joyent": "San Francisco"
+        "marker-size": "small",
+        "Providers": ["Joyent"]
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +146,11 @@
       "type": "Feature",
       "id": 9,
       "properties": {
-        "Joyent": "Ashburn"
+        "marker-size": "medium",
+        "Providers": [
+          "Joyent",
+          "Rackspace"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -145,7 +164,11 @@
       "type": "Feature",
       "id": 10,
       "properties": {
-        "Joyent": "Amsterdam"
+        "marker-size": "medium",
+        "Providers": [
+          "Joyent",
+          "Softlayer"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +182,10 @@
       "type": "Feature",
       "id": 11,
       "properties": {
-        "Rackspace": "Hong Kong"
+        "marker-size": "small",
+        "Providers": [
+          "Rackspace"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -171,23 +197,12 @@
     },
     {
       "type": "Feature",
-      "id": 12,
-      "properties": {
-        "Rackspace": "Sydney"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.26,
-          -33.867487
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 13,
       "properties": {
-        "Rackspace": "Chicago"
+        "marker-size": "small",
+        "Providers": [
+          "Rackspace"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +216,11 @@
       "type": "Feature",
       "id": 14,
       "properties": {
-        "Rackspace": "Dallas"
+        "marker-size": "medium",
+        "Providers": [
+          "Rackspace",
+          "Softlayer"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -213,23 +232,12 @@
     },
     {
       "type": "Feature",
-      "id": 15,
-      "properties": {
-        "Rackspace": "Ashburn"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.387442,
-          39.043757
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 16,
       "properties": {
-        "Rackspace": "London"
+        "marker-size": "small",
+        "Providers": [
+          "Rackspace"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -241,23 +249,12 @@
     },
     {
       "type": "Feature",
-      "id": 17,
-      "properties": {
-        "Softlayer": "Singapore"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.757086,
-          1.29559
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 18,
       "properties": {
-        "Softlayer": "San Jose"
+        "marker-size": "small",
+        "Providers": [
+          "Softlayer"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +268,10 @@
       "type": "Feature",
       "id": 19,
       "properties": {
-        "Softlayer": "Seattle"
+        "marker-size": "small",
+        "Providers": [
+          "Softlayer"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -283,23 +283,12 @@
     },
     {
       "type": "Feature",
-      "id": 20,
-      "properties": {
-        "Softlayer": "Dallas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.900451,
-          32.78014
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 21,
       "properties": {
-        "Softlayer": "Washington D.C."
+        "marker-size": "small",
+        "Providers": [
+          "Softlayer"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -309,19 +298,5 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "id": 22,
-      "properties": {
-        "Softlayer": "Amsterdam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.995168,
-          52.370216
-        ]
-      }
-    }
   ]
 }
