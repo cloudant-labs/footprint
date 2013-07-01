@@ -1,51 +1,350 @@
 {
-"type": "FeatureCollection",
-
-"features": [
-{ "type": "Feature", "id": 0, "properties": { "AWS": "Singapore", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ 103.857086, 1.29559 ] } }
-,
-{ "type": "Feature", "id": 1, "properties": { "AWS": "Sydney", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ 151.20699, -33.867487 ] } }
-,
-{ "type": "Feature", "id": 2, "properties": { "AWS": "Tokyo", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ 139.691706, 35.689488 ] } }
-,
-{ "type": "Feature", "id": 3, "properties": { "AWS": "Northern California", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ -122.143019, 37.441883 ] } }
-,
-{ "type": "Feature", "id": 4, "properties": { "AWS": "Oregon", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ -122.676207, 45.523452 ] } }
-,
-{ "type": "Feature", "id": 5, "properties": { "AWS": "Northern Virginia", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ -77.487442, 39.043757 ] } }
-,
-{ "type": "Feature", "id": 6, "properties": { "AWS": "Dublin", "marker-color": "ffff00" }, "geometry": { "type": "Point", "coordinates": [ -6.267515, 53.331684 ] } }
-,
-{ "type": "Feature", "id": 7, "properties": { "Joyent": "Las Vegas", "marker-color": "008000" }, "geometry": { "type": "Point", "coordinates": [ -115.172816, 36.114646 ] } }
-,
-{ "type": "Feature", "id": 8, "properties": { "Joyent": "San Francisco", "marker-color": "008000" }, "geometry": { "type": "Point", "coordinates": [ -122.419415, 37.77493 ] } }
-,
-{ "type": "Feature", "id": 9, "properties": { "Joyent": "Ashburn", "marker-color": "008000" }, "geometry": { "type": "Point", "coordinates": [ -77.587442, 39.043757 ] } }
-,
-{ "type": "Feature", "id": 10, "properties": { "Joyent": "Amsterdam", "marker-color": "008000" }, "geometry": { "type": "Point", "coordinates": [ 4.895168, 52.370216 ] } }
-,
-{ "type": "Feature", "id": 11, "properties": { "Rackspace": "Hong Kong", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ 114.109497, 22.396428 ] } }
-,
-{ "type": "Feature", "id": 12, "properties": { "Rackspace": "Sydney", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ 151.26, -33.867487 ] } }
-,
-{ "type": "Feature", "id": 13, "properties": { "Rackspace": "Chicago", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ -87.651682, 41.914308 ] } }
-,
-{ "type": "Feature", "id": 14, "properties": { "Rackspace": "Dallas", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ -96.800451, 32.78014 ] } }
-,
-{ "type": "Feature", "id": 15, "properties": { "Rackspace": "Ashburn", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ -77.387442, 39.043757 ] } }
-,
-{ "type": "Feature", "id": 16, "properties": { "Rackspace": "London", "marker-color": "ff0000" }, "geometry": { "type": "Point", "coordinates": [ -0.085272, 51.530661  ] } }
-,
-{ "type": "Feature", "id": 17, "properties": { "Softlayer": "Singapore", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ 103.757086, 1.29559 ] } }
-,
-{ "type": "Feature", "id": 18, "properties": { "Softlayer": "San Jose", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ -121.894955, 37.339386 ] } }
-,
-{ "type": "Feature", "id": 19, "properties": { "Softlayer": "Seattle", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ -122.332071, 47.60621 ] } }
-,
-{ "type": "Feature", "id": 20, "properties": { "Softlayer": "Dallas", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ -96.900451, 32.78014 ] } }
-,
-{ "type": "Feature", "id": 21, "properties": { "Softlayer": "Washington D.C.", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ -77.036366, 38.895112 ] } }
-,
-{ "type": "Feature", "id": 22, "properties": { "Softlayer": "Amsterdam", "marker-color": "0000ff" }, "geometry": { "type": "Point", "coordinates": [ 4.995168, 52.370216] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "AWS": "Singapore",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.857086,
+          1.29559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "AWS": "Sydney",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20699,
+          -33.867487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "AWS": "Tokyo",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.691706,
+          35.689488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "AWS": "Northern California",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143019,
+          37.441883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "AWS": "Oregon",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.676207,
+          45.523452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "AWS": "Northern Virginia",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.487442,
+          39.043757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "AWS": "Dublin",
+        "marker-color": "ffff00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.267515,
+          53.331684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "Joyent": "Las Vegas",
+        "marker-color": "008000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.172816,
+          36.114646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "Joyent": "San Francisco",
+        "marker-color": "008000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419415,
+          37.77493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "Joyent": "Ashburn",
+        "marker-color": "008000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.587442,
+          39.043757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "Joyent": "Amsterdam",
+        "marker-color": "008000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.895168,
+          52.370216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "Rackspace": "Hong Kong",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.109497,
+          22.396428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "Rackspace": "Sydney",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26,
+          -33.867487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "Rackspace": "Chicago",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.651682,
+          41.914308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "Rackspace": "Dallas",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.800451,
+          32.78014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "Rackspace": "Ashburn",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.387442,
+          39.043757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "Rackspace": "London",
+        "marker-color": "ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.085272,
+          51.530661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "Softlayer": "Singapore",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.757086,
+          1.29559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "Softlayer": "San Jose",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894955,
+          37.339386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "Softlayer": "Seattle",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332071,
+          47.60621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "Softlayer": "Dallas",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.900451,
+          32.78014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "Softlayer": "Washington D.C.",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.036366,
+          38.895112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "Softlayer": "Amsterdam",
+        "marker-color": "0000ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.995168,
+          52.370216
+        ]
+      }
+    }
+  ]
 }
