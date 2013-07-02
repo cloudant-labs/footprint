@@ -1,5 +1,3 @@
 footprint
 =========
-GeoJSON of the locations where Cloudant deploys clusters. 
-
-RED = Rackspace, BLUE = Softlayer, YELLOW = AWS and GREEN = Joyent. Note that the locations are (very) approximate.
+GeoJSON of the approximate locations where Cloudant deploys clusters. Marker size correlates with number of service providers in that area.
