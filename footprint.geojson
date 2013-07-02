@@ -55,8 +55,8 @@
       },
       "properties": {
         "marker-size": "medium",
-        "providers": "Rackspace, Softlayer",
-        "location": "Dallas"
+        "providers": "Rackspace (2), Softlayer, Azure",
+        "location": "Texas"
       },
       "type": "Feature"
     },
@@ -87,6 +87,21 @@
         "marker-size": "small",
         "providers": "Rackspace",
         "location": "London"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+        -0.592629,
+        51.516434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Rackspace",
+        "location": "Slough"
       },
       "type": "Feature"
     },
@@ -130,7 +145,7 @@
       },
       "properties": {
         "marker-size": "small",
-        "providers": "Softlayer",
+        "providers": "Rackspace, Softlayer",
         "location": "Washington D.C."
       },
       "type": "Feature"
@@ -146,7 +161,7 @@
       "properties": {
         "marker-size": "medium",
         "providers": "Softlayer, Joyent, Azure",
-        "location": "Amsterdam"
+        "location": "Netherlands"
       },
       "type": "Feature"
     },
@@ -237,21 +252,6 @@
         "marker-size": "small",
         "providers": "Joyent",
         "location": "Las Vegas"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.000451,
-          32.78014
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "marker-size": "small",
-        "providers": "Azure",
-        "location": "Texas"
       },
       "type": "Feature"
     }
