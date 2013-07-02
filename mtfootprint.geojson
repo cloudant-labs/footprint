@@ -2,106 +2,91 @@
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -87.651998,
           41.914845
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
-        "provider": "Rackspace",
-        "location": "Chicago",
-        "name": "Malort"
+        "marker-size": "medium",
+        "clusters": "Malort (Rackspace)",
+        "location": "Chicago"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
-        -77.486283,
-         39.052252
-        ],
-        "type": "Point"
+          -77.486283,
+          39.052252
+        ]
       },
       "properties": {
-        "provider": "Joyent",
-        "location": "US East",
-        "name": "Jubilee"
+        "marker-size": "medium",
+        "clusters": "Jubilee (Joyent)",
+        "location": "US East"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -0.085272,
           51.530661
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
-        "provider": "Rackspace",
-        "location": "London",
-        "name": "Mead"
+        "marker-size": "medium",
+        "clusters": "Mead (Rackspace)",
+        "location": "London"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           103.757086,
           1.29559
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
-        "provider": "Softlayer",
-        "location": "South-East Asia",
-        "name": "Sling"
+        "marker-size": "medium",
+        "clusters": "Sling (Softlayer)",
+        "location": "South-East Asia"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           4.895168,
           52.370216
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
-        "provider": "Softlayer",
-        "location": "Amsterdam",
-        "name": "Jenever"
+        "marker-size": "medium",
+        "clusters": "Jenever (Softlayer)",
+        "location": "Amsterdam"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -122.143019,
           37.441883
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
-        "provider": "Azure",
-        "location": "US West",
-        "name": "Lagoon 2 (beta)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-        -121.892152,
-        37.363609
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "provider": "Softlayer",
-        "location": "US West",
-        "name": "Meritage"
+        "marker-size": "medium",
+        "clusters": "Lagoon 2 (Azure; in beta), Meritage (Softlayer)",
+        "location": "US West"
       },
       "type": "Feature"
     }
