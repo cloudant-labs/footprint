@@ -1,1 +1,275 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"location":"Hong Kong","providers":"Rackspace, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[114,22]}},{"type":"Feature","properties":{"location":"Sydney","providers":"Rackspace, AWS","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[151,-33]}},{"type":"Feature","properties":{"location":"Chicago","providers":"Rackspace, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[-87,41]}},{"type":"Feature","properties":{"location":"Dallas","providers":"Rackspace, Softlayer","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[-96,32]}},{"type":"Feature","properties":{"location":"Ashburn","providers":"Rackspace, AWS, Joyent, Azure","marker-size":"large"},"geometry":{"type":"Point","coordinates":[-77,39]}},{"type":"Feature","properties":{"location":"London","providers":"Rackspace","marker-size":"small"},"geometry":{"type":"Point","coordinates":[0,51]}},{"type":"Feature","properties":{"location":"Singapore","providers":"Softlayer, AWS, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[103,1]}},{"type":"Feature","properties":{"location":"San Jose","providers":"Softlayer","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-121,37]}},{"type":"Feature","properties":{"location":"Seattle","providers":"Softlayer","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-122,47]}},{"type":"Feature","properties":{"location":"Washington D.C.","providers":"Softlayer","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-77,38]}},{"type":"Feature","properties":{"location":"Amsterdam","providers":"Softlayer, Joyent, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[4,52]}},{"type":"Feature","properties":{"location":"Tokyo","providers":"AWS","marker-size":"small"},"geometry":{"type":"Point","coordinates":[139,35]}},{"type":"Feature","properties":{"location":"Northern California","providers":"AWS, Joyent, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[-122,37]}},{"type":"Feature","properties":{"location":"Oregon","providers":"AWS","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-122,45]}},{"type":"Feature","properties":{"location":"Dublin","providers":"AWS, Azure","marker-size":"medium"},"geometry":{"type":"Point","coordinates":[-6,53]}},{"type":"Feature","properties":{"location":"Sao Paolo","providers":"AWS","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-46,-23]}},{"type":"Feature","properties":{"location":"Las Vegas","providers":"Joyent","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-115,36]}},{"type":"Feature","properties":{"location":"Texas","providers":"Azure","marker-size":"small"},"geometry":{"type":"Point","coordinates":[-97,32]}}]}
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          114.109497,
+          22.396428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Rackspace, Azure",
+        "location": "Hong Kong"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.26,
+          -33.867487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Rackspace, AWS",
+        "location": "Sydney"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -87.661682,
+          41.914308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Rackspace, Azure",
+        "location": "Chicago"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -96.800451,
+          32.78014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Rackspace, Softlayer",
+        "location": "Dallas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.387442,
+          39.043757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "large",
+        "providers": "Rackspace, AWS, Joyent, Azure",
+        "location": "Ashburn"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.085272,
+          51.530661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Rackspace",
+        "location": "London"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.757086,
+          1.29559
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Softlayer, AWS, Azure",
+        "location": "Singapore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -121.894955,
+          37.339386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Softlayer",
+        "location": "San Jose"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.332071,
+          47.60621
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Softlayer",
+        "location": "Seattle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.036366,
+          38.895112
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Softlayer",
+        "location": "Washington D.C."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.895168,
+          52.370216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "Softlayer, Joyent, Azure",
+        "location": "Amsterdam"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.691706,
+          35.689488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "AWS",
+        "location": "Tokyo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.143019,
+          37.441883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "AWS, Joyent, Azure",
+        "location": "Northern California"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.676207,
+          45.523452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "AWS",
+        "location": "Oregon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.267515,
+          53.331684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "medium",
+        "providers": "AWS, Azure",
+        "location": "Dublin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -46.640139,
+          -23.448129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "AWS",
+        "location": "Sao Paolo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -115.172816,
+          36.114646
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Joyent",
+        "location": "Las Vegas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.000451,
+          32.78014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "marker-size": "small",
+        "providers": "Azure",
+        "location": "Texas"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
