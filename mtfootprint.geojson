@@ -84,7 +84,7 @@
         ]
       },
       "properties": {
-        "marker-size": "medium",
+        "marker-size": "large",
         "clusters": "Lagoon 2 (Azure; in beta), Meritage (Softlayer)",
         "location": "US West"
       },
