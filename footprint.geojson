@@ -108,21 +108,6 @@
     {
       "geometry": {
         "coordinates": [
-          -121.894955,
-          37.339386
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "marker-size": "small",
-        "providers": "Softlayer",
-        "location": "San Jose"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           -122.332071,
           47.60621
         ],
@@ -190,7 +175,7 @@
       },
       "properties": {
         "marker-size": "medium",
-        "providers": "AWS, Joyent, Azure",
+        "providers": "Softlayer, AWS, Joyent, Azure",
         "location": "Northern California"
       },
       "type": "Feature"
