@@ -1,0 +1,110 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -87.651998,
+          41.914845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Rackspace",
+        "location": "Chicago",
+        "name": "Malort"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+        -77.486283,
+         39.052252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Joyent",
+        "location": "US East",
+        "name": "Jubilee"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.085272,
+          51.530661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Rackspace",
+        "location": "London",
+        "name": "Mead"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.757086,
+          1.29559
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Softlayer",
+        "location": "South-East Asia",
+        "name": "Sling"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.895168,
+          52.370216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Softlayer",
+        "location": "Amsterdam",
+        "name": "Jenever"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.143019,
+          37.441883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Azure",
+        "location": "US West",
+        "name": "Lagoon 2 (beta)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+        -121.892152,
+        37.363609
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "provider": "Softlayer",
+        "location": "US West",
+        "name": "Meritage"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
